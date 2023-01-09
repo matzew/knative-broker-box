@@ -15,7 +15,7 @@ else
   reset=''
 fi
 
-eventing_version="v1.8.1"
+eventing_version="v1.8.4"
 eventing_url=https://github.com/knative/eventing/releases/download/knative-${eventing_version}
 
 function header_text {
