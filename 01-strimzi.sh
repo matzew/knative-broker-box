@@ -15,7 +15,7 @@ else
   reset=''
 fi
 
-strimzi_version="0.32.0"
+strimzi_version="0.33.0"
 
 function header_text {
   echo "$header$*$reset"
@@ -47,7 +47,7 @@ metadata:
   name: my-cluster
 spec:
   kafka:
-    version: 3.3.1
+    version: 3.3.2
     replicas: 1
     listeners:
       - name: plain
