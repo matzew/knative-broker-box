@@ -15,7 +15,7 @@ else
   reset=''
 fi
 
-eventing_kafka_broker_version="v1.8.5"
+eventing_kafka_broker_version="v1.9.0"
 
 function header_text {
   echo "$header$*$reset"
