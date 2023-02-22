@@ -15,7 +15,7 @@ else
   reset=''
 fi
 
-strimzi_version="0.33.0"
+strimzi_version="0.33.2"
 
 function header_text {
   echo "$header$*$reset"
@@ -47,7 +47,7 @@ metadata:
   name: my-cluster
 spec:
   kafka:
-    version: 3.3.2
+    version: 3.4.0
     replicas: 1
     listeners:
       - name: plain
@@ -64,7 +64,7 @@ spec:
       transaction.state.log.min.isr: 1
       default.replication.factor: 1
       min.insync.replicas: 1
-      inter.broker.protocol.version: "3.3"
+      inter.broker.protocol.version: "3.4"
     storage:
       type: jbod
       volumes:
