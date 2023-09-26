@@ -15,7 +15,7 @@ else
   reset=''
 fi
 
-strimzi_version="0.36.1"
+strimzi_version="0.37.0"
 
 function header_text {
   echo "$header$*$reset"
